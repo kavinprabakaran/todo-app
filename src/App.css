@@ -1,0 +1,53 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.add-todo input {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: azure;
+}
+
+.add-todo button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter select {
+  padding: 5px;
+}
+
+.todos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.todo-card h3 {
+  margin-top: 0;
+}
+
+.todo-card p {
+  margin-bottom: 10px;
+}
+
+.todo-card select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.todo-card button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+s
